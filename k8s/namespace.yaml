@@ -1,0 +1,7 @@
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: pets
+
+# Kubectl command to switch to this ns: kubectl config set-context --current --namespace=pets
